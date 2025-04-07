@@ -1,0 +1,8 @@
+services:
+  api-pps:
+    build: ./
+    restart: always
+    ports:
+      - "9000:80"
+    volumes:
+      - ./:/var/www/html

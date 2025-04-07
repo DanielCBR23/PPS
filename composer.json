@@ -1,0 +1,40 @@
+{
+  "name": "system/api-pps",
+  "type": "project",
+  
+  "require": {
+      "coffeecode/router": "^1.0",
+      "guzzlehttp/guzzle": "^7.3",
+      "monolog/monolog": "^3.4",
+      "fp4php/functional": "^6.0",
+      "ramsey/uuid": "^4.7",
+      "netresearch/jsonmapper": "^4.4",
+      "spatie/data-transfer-object": "^3.9",
+      "jbroadway/urlify": "^1.2",
+    "respect/validation": "^2.3",
+    "firebase/php-jwt": "^6.10",
+    "phpmailer/phpmailer": "^6.9",
+    "vlucas/phpdotenv": "^5.6",
+    "illuminate/database": "^10.48"
+  },
+  "autoload": {
+      "psr-4": {
+          "Api\\": "Api/"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Tests\\": "Tests/"
+      }
+  },
+  "authors": [
+      {
+          "name": "Daniel",
+          "email": "daniel.costacbr@gmail.com"
+      }
+  ],
+  "require-dev": {
+      "k2gl/phpunit-fluent-assertions": "^1.4",
+      "phpunit/phpunit": "^10.5"
+  }
+}
